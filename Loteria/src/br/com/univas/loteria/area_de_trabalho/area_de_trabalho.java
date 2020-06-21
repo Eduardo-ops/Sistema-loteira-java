@@ -30,8 +30,8 @@ public class area_de_trabalho {
         BufferedReader buffQuina = new BufferedReader(new FileReader(quinaCSV));
         
         ArrayList<Jogo> mList = new ArrayList(); //Array de Objetos do tipo Jogos MegaSena
-        ArrayList<Jogo> qList = new ArrayList(); //Array de Objetos do tipo Jogos MegaSena
-        ArrayList<Jogo> lList = new ArrayList(); //Array de Objetos do tipo Jogos MegaSena
+        ArrayList<Jogo> qList = new ArrayList(); //Array de Objetos do tipo Jogos Quina
+        ArrayList<Jogo> lList = new ArrayList(); //Array de Objetos do tipo Jogos Lotofacil
         String line = "";
         
         //Split nas linhas do CSV, salvando no objeto e carregando lista de objetos MegaSena
