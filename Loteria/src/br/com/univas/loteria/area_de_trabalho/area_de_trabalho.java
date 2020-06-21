@@ -276,7 +276,7 @@ public class area_de_trabalho {
                         a = jogo.validacao(aux);
                         
                         if (a == false) {
-                            System.out.println("sua dezenas devem estar entre 1 e 60");
+                            System.out.println("sua dezenas devem estar entre 1 e 80");
                             System.out.println("Informe novamente a dezena:");
                             i--;
                         }
@@ -380,7 +380,7 @@ public class area_de_trabalho {
                     
                    int aux = 0;
                    
-                    System.out.println("ATENÇÃO: AS DEZENAS DEVEM ESTAR ENTRE 1 E 80");
+                    System.out.println("ATENÇÃO: AS DEZENAS DEVEM ESTAR ENTRE 1 E 25");
 
                     for (int i = 0;i < 15;i++) {
                         System.out.println("Escolha a " + (i + 1) + "° dezena:");
@@ -389,7 +389,7 @@ public class area_de_trabalho {
                         a = jogo.validacao(aux);
                         
                         if (a == false) {
-                            System.out.println("sua dezenas devem estar entre 1 e 60");
+                            System.out.println("sua dezenas devem estar entre 1 e 25");
                             System.out.println("Informe novamente a dezena:");
                             i--;
                         }
