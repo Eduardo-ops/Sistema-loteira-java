@@ -1,2 +1,1 @@
-# Trabalho Loteria definitivo
- Trabalho sistema loterias
+Trabalho realizado com base em linguagem java, funciona como fazer um jogo de loteria, podendo fazer buscas dos números mais sorteados e os menos, todos os jogos realizados atpe o momento do atual desenvolvimento do trabalho e realização de jogos.
